@@ -1,0 +1,27 @@
+- Dart is a type-safe language
+- Dart is a platform-independent language and supports almost every operating system such as windows, mac, and Linux.
+- Dart is an object-oriented programming language and supports all oops features such as encapsulation, inheritance, polymorphism, interface, etc.
+- Dart comes with a dart2js compiler which translates dart code to javascript code that runs on all modern browsers.
+- sound type system
+  - Dart has static type check (compile time) and runtime check 
+  - static type check will ignore dynamic type data
+- type inference
+  - types are mandatory, but don't have to be annotated 
+  - because Dart can infer types by using the var keyword
+  - dynamic VS. var
+    - var isn't a type.
+    - use `var` for type inference and `dynamic` for explicit flexibility.
+
+- Sound Null Safety
+  - variables can't contain null, unless you say they can.
+  - data can be nullable or non-nullable
+- Dart using JIT, AOT compiler
+  - JIT, just in time 
+    - JIT compiles only the amount of code it needs
+    - JIT doesn't recompile the already compiled code if it hasn't changed.
+    - JIT is responsible for hot-reload
+    - JIT doesn't transform the Dart Code into Machine Code, but rather into an Intermediary Language (for faster development cycles)
+  - AOT, ahead of time compiler
+    - compiles the entire code, it does this just before each build
+    - AOT compiles the code into platform specific machine code
+    - AOT makes sure the build is the best most optimal version of it
