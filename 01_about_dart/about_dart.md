@@ -11,6 +11,8 @@
   - dynamic VS. var
     - var isn't a type.
     - use `var` for type inference and `dynamic` for explicit flexibility.
+    - `var` Uses automatic type inference, and the type assigned is immutable; it guarantees type correctness at compile time.
+    - `dynamic` Explicitly indicates that the variable's type is flexible allowing the type change at runtime; however, due to the lack of static type checking, it may lead to runtime errors.
 
 - Sound Null Safety
   - variables can't contain null, unless you say they can.
